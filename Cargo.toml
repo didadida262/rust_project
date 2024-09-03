@@ -5,3 +5,5 @@ edition = "2021"
 
 [dependencies]
 actix-web = "4.9.0"
+listenfd="0.3"
+serde = { version = "1", features = ["derive"] }
